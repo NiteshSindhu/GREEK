@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           h1{
+            text-align: center;
+        }
+        #dv{
+            display:flex;
+            flex-wrap: wrap;
+            width:100%;
+            height: auto;
+            margin-top:20px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        img{
+            width:100%
+        }
+        #dv>div{
+            width:24%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            margin-bottom: 30px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            
+        }
+        button{
+            padding:20px;
+            color:white;
+            background-color: teal;
+        }
+        #dv>div>p,#dv>div>h3{
+            margin:0pc 10px 0px 10px;
+        }
+        #main{
+    width:100%;
+    height: auto;
+    font-size: 12px;
+    background-color: blue;
+    padding-top:20px;
+    position: sticky;
+}
+#st{
+    display: flex;    
+    justify-content: space-between;  
+    height: 50px;  
+    align-items: center;
+    padding: 10px;
+}
+#st>div:nth-child(2){
+    height: 50px;
+    width:60%;
+}
+img{
+    width:100%;
+    height: 100%;     
+}
+.img{
+    width: 188px;
+    height: 50px;
+    display: flex;
+}
+.img+div{
+    position: relative;
+    width: 560px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+}
+#st>p:last-child>a>img{
+    width:40px;
+    border-radius: 50%;
+
+}
+#st>p:nth-child(3)>a{
+    font-size: 2rem;
+    color:white;
+    text-decoration: none;
+}
+input{
+    outline: none;
+     border: none;
+}
+#inpu{
+    width: 80%;
+    height: 100%;
+    /* position: absolute; */
+    text-indent: 20px;
+    color: #333;
+    border-radius: 4px;
+    font-size: 1.16667em;
+    top: 0;
+    left: 0;
+}
+#slec{
+    width:30%;
+    height: 100%;
+    border: 0;
+    font-size: 1.54rem;
+}
+#ts{
+    width:90%;
+    height:50px;
+    display: flex;
+    margin-top:30px;
+    align-items: center;
+}
+#ts>p>a, #ts>select,#best>div>p:nth-child(4){
+    font-size:1.5rem;
+    font-weight: 400;
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+    margin-right:30px;
+}
+#ts>select>option{
+    color:black;
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="st">
+                    <div class="img"><a href="index.html"><img src="logo.png" alt="GeekBuying"></a></div>
+                    <div>
+                        <select id="slec">
+                            <option value="All">All Categories</option>
+                            <option value="Home">Smart Home</option>
+                            <option value="Fasion">Fashion</option>
+                            <option value="Toy">Toys & Hobbies</option>
+                        </select>
+                        <input type="text" id="inpu">
+                    </div>
+                    <p><a href="login.html">Signin</a></p>  
+                    <p><a href="bag.html"><img src="bag.jpg"></a></p>        
+        </div>
+        <div id="ts">
+            <select>
+                <option value="All" >Categories</option>
+                <option value="Home">Smart Home</option>
+                 <option value="Fasion">Fashion</option>
+                <option value="Toy">Toys & Hobbies</option>
+            </select>
+            <p><a href="new.html">New</a></p>
+            <p><a  href="brand.html">Brand</a></p>
+            <p><a href="bestselling.html">Bestselling</a></p>
+        </div>
+        </div>
+    <h1>Best Selling</h1>
+    <div id="dv"></div>
+    <div>
+        <img src="ph1.png" alt="">
+        </div>
+</body>
+</html>
+<script src="bestselling.js"></script>
