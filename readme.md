@@ -22,7 +22,7 @@ This is E-commerce platforms selling a wide range of consumer electronic gadgets
 
 - There is login and logout functionality.
 - Elegant navbar for easy navigation between pages and categories.
-- Customers can view the Excercise list of a particular category.
+- Customers can view the Products list of a particular category.
 
 
 ## Screenshots
