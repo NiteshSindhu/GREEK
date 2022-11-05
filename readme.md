@@ -1,6 +1,6 @@
 ## GeekBuying ![Badge](https://visitor-counter-badge.vercel.app/api/NiteshSindhu/GREEK)
 
-![Logo](./logo.png)
+![Logo](https://rezkakshop.com/wp-content/uploads/2022/07/%D9%83%D9%88%D8%AF-%D8%AE%D8%B5%D9%85-%D8%AC%D9%8A%D9%83-%D8%A8%D8%A7%D9%8A%D9%86%D8%AC-geekbuying-discount-code.png)
 
 
 ## Badges
@@ -31,29 +31,29 @@ A glimpse of our website
 - On this page users can signup/sign-in based on whether the user is already registered or not.
 
 Step :- 1
-![Sign in](./pics/Signin.png)
+![Sign in](./Pics/signin.png)
 
 Step :- 2
-![Create account](./pics/Signup.PNG)
+![Create account](./Pics/signup.PNG)
 
 
 - The landing page.
 
-![Landing page](./pics/landing.png)
+![Landing page](./Pics/Landing.png)
 
 
-![Bestselling_](./pics/best.png)
+![Bestselling_](./Pics/best.png)
 
-![New Arrival page](./pics/news.png)
+![New Arrival page](./Pics/news.png)
 
 - on the checkout page,  address and credit card details in order to place the order.
 
 
-![Cart page](./pics/cart.png)
+![Cart page](./Pics/cart.png)
 
 - There is footer page where the user see terms and condition and connected to our social sites
 
-![Footer](./pics/footer.png)
+![Footer](./Pics/footer.png)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/504678a1-de2b-4f30-a204-6fdf0a280ebb/deploy-status)](https://app.netlify.com/sites/nordstrom-clone-245a2a/deploys)
  [Demo link here](https://curious-cannoli-85747b.netlify.app/) 
 
