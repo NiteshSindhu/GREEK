@@ -34,7 +34,7 @@ Step :- 1
 ![Sign in](./Pics/signin.png)
 
 Step :- 2
-![Create account](./Pics/signup.PNG)
+![Create account](./Pics/signup.png)
 
 
 - The landing page.
